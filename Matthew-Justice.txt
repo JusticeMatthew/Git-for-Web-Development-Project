@@ -121,15 +121,44 @@ Gotta be careful because there is no "are you sure" or recycle bin, once you hit
 -- Every 20 minutes.... brb
 
 36. What is the command we would use to push our repo up to github? 
-
+-- git push -u Branch-Name or just git push if you've already established your branch
 
 37. Walk me through Lambda's git flow. 
+-- I made a text document of the process during todays warm up so I would always have it handy:
+
+Git process
+
+FORK and copy link
+
+git clone <link>
+cd <project name>
+git checkout -b Matthew-Justice
+code .
+
+Do work
+
+git add .
+git commit -m "Patch notes"
+git push -u origin Matthew-Justice
+
+Go submit pull request
+
 
     
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    -- Block elements force a new line where as INLINE elements stay on the same line
+
+    2. What happens when an element is positioned absolutely?
+    -- It will maintain it's position relative to it's parent. If there is no parent it will use the body as its reference.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    -- Using auto for the paddings and margins
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    -- This one got me
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    -- The way I've come to think of it is every element has a border that can't overlap with other elements borders the padding controls the space between the element and it's border and the margin the space between the border and other elements border margins.
+    I would say the "fix" is probably the auto function in css when defining paddings and margins
