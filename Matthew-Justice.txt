@@ -1,112 +1,114 @@
 https://codepen.io/mjusticeark/full/pobPMWj
 
-1. What is Semantic HTML? 
-    2. What is HTML used for? 
-    -- Html gives meaning to our content
+1. What is Semantic HTML?
+-- Semantic HTML is used to give meaning to differnt page elements with appropriate tags
 
-    3. What is an attribute and where do we put it?
-    -- An attribute goes with an element to provide additional information (I.E. The links for <img> and <a> tags)
+2. What is HTML used for? 
+-- HTML is used to structure webpages
 
-    4. What is the h1 tag used for? How many times should I use it on a page?
+3. What is an attribute and where do we put it?
+-- An attribute goes with an element to provide additional information (I.E. The links for <img> and <a> tags)
 
+4. What is the h1 tag used for? How many times should I use it on a page?
+-- The h1 tag is used for the main subject of the page and should only be used once
 
-    5. Name two tags that have required attributes
+5. Name two tags that have required attributes
+-- Stealing from my above example <a> and <img>
 
+6. What do we put in the head of our HTML document? 
+-- Meta-data, CSS file info, JS file info. "Under the hood" features.
 
-    6. What do we put in the head of our HTML document? 
+7. What is an id? 
+-- An ID is a user defined attribute meant to be unique to the element, to be referenced later for styling
 
+8. What elements can I add an id to? 
+-- All
 
-    7. What is an id? 
+9. How many times can I use the same id on a page? 
+-- Once
 
+10. What is a class? 
+-- A class is a user defined attribute meant to be used for multiple elements that will need to be styled the same way
 
-    8. What elements can I add an id to? 
+11. What elements can I add a class to? 
+-- All
 
+12. How many times can I use the same class on a page? 
+-- As many times as your heart desires
 
-    9. How many times can I use the same id on a page? 
+13. How do I get my link to open in a new tab?
+-- You must add the target attribute and point it to "_blank" (IE target="_blank")
 
+14. What is the alt attribute in the image tag used for? 
 
-    10. What is a class? 
 
+15. How do I reference an id?
 
-    11. What elements can I add a class to? 
 
+16. What is the difference between a section and a div
 
-    12. How many times can I use the same class on a page? 
 
+17. What is CSS used for? 
 
-    13. How do I get my link to open in a new tab?
 
+18. How to we select an element? Example - every h2 on the page
 
-    14. What is the alt attribute in the image tag used for? 
 
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
 
-    15. How do I reference an id?
 
+20. How do we select classes in CSS?
 
-    16. What is the difference between a section and a div
 
+21. How do we select a p element with a single class of “human””?
 
-    17. What is CSS used for? 
 
+22. What is a parent child selector? When would this be useful? 
 
-    18. How to we select an element? Example - every h2 on the page
 
+23. How do you select all links within a div with the class of sidebar?
 
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
 
+24. What is a pseudo selector?
 
-    20. How do we select classes in CSS?
 
+25. What do we use the change the spacing between lines?
 
-    21. How do we select a p element with a single class of “human””?
 
+26. What do we use to change the spacing between letters?
 
-    22. What is a parent child selector? When would this be useful? 
 
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 
-    23. How do you select all links within a div with the class of sidebar?
 
+28. How do I add a 1px border around my div that is dotted and black?
 
-    24. What is a pseudo selector?
 
+29. How do I select everything on the page? 
 
-    25. What do we use the change the spacing between lines?
 
+30. How do I write a comment in CSS?
 
-    26. What do we use to change the spacing between letters?
 
+31. How do I find out what file I am in, when I am using the command line? 
 
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 
+32. Using the command line - how do I see a list of files/folders in my current folder?
 
-    28. How do I add a 1px border around my div that is dotted and black?
 
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
 
-    29. How do I select everything on the page? 
 
+34. Why should I use version control? 
 
-    30. How do I write a comment in CSS?
 
+35. How often should I commit to github?
 
-    31. How do I find out what file I am in, when I am using the command line? 
 
+36. What is the command we would use to push our repo up to github? 
 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
 
-
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
-
-    34. Why should I use version control? 
-
-
-    35. How often should I commit to github?
-
-
-    36. What is the command we would use to push our repo up to github? 
-
-
-    37. Walk me through Lambda's git flow. 
+37. Walk me through Lambda's git flow. 
 
     
 Stretch Questions
