@@ -1,4 +1,4 @@
-https://codepen.io/mjusticeark/pen/pobPMWj?editors=1100
+https://codepen.io/mjusticeark/full/pobPMWj
 
 1. What is Semantic HTML? 
     2. What is HTML used for? 
