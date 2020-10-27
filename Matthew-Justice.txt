@@ -40,70 +40,85 @@ https://codepen.io/mjusticeark/full/pobPMWj
 -- You must add the target attribute and point it to "_blank" (IE target="_blank")
 
 14. What is the alt attribute in the image tag used for? 
-
+-- It is an accessability option meant to describe the image in plain text
 
 15. How do I reference an id?
-
+-- With an OCTOTHORP (Love that new word)
 
 16. What is the difference between a section and a div
-
+-- Took me awhile to get this concent, but DIV is non semantic because it does not imply what it contains and section is semantic because it does 
 
 17. What is CSS used for? 
-
+-- Style
 
 18. How to we select an element? Example - every h2 on the page
-
+-- h2 {}
 
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
-
+-- An ID is similar to a licence, each person has one but it's unique to that person, like an ID will be unique to it's element. A class is exactly like a class on a licence, many people may have a class A licence just like many attributes may need to have the same class.
+-- I honestly don't know whey you would ever use an ID instead of a class considering you can just give a class a unique name. 
+I guess when writing thousands of lines of codes that may become inconvenient. So my example will be code readability when things start getting very complex. 
 
 20. How do we select classes in CSS?
-
+-- .class {}
 
 21. How do we select a p element with a single class of “human””?
-
+-- I think there are multiple ways but I would use: 
+.human
 
 22. What is a parent child selector? When would this be useful? 
+-- Basically selecting items based on how they are nested for example:
+header p {}
 
+Would select the p elements in the header element
+
+I don't know when specifically this will be useful but so far it is one of my preferred methods of selecting elements
 
 23. How do you select all links within a div with the class of sidebar?
-
+-- .sidebar a {}
 
 24. What is a pseudo selector?
-
+-- It's a selector after the main selector that is used for further customizing an element, usually based on user interaction.
 
 25. What do we use the change the spacing between lines?
-
+-- line-height: xx;
 
 26. What do we use to change the spacing between letters?
-
+-- letter-spacing: xx;
 
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-
+-- text-transform: uppercase or lowercase or capitalize;
 
 28. How do I add a 1px border around my div that is dotted and black?
+-- div {
+    border: dotted 1px;
+}
 
+Black is the default color
 
 29. How do I select everything on the page? 
+-- * {
 
+}
 
 30. How do I write a comment in CSS?
-
+-- /* Like This */
 
 31. How do I find out what file I am in, when I am using the command line? 
-
+-- pwd (print working directory)
 
 32. Using the command line - how do I see a list of files/folders in my current folder?
-
+-- ls
 
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
+-- rm 
+Gotta be careful because there is no "are you sure" or recycle bin, once you hit return it's gone
 
 34. Why should I use version control? 
-
+-- Seems like there are a ton of reasons but some of the big ones I think are having all the iterations of your project to look back on/restore to if needed, it's super helpful for collaboration, and it's a great way to keep projects up to date safely.
 
 35. How often should I commit to github?
-
+-- Every 20 minutes.... brb
 
 36. What is the command we would use to push our repo up to github? 
 
